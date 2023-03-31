@@ -8,9 +8,67 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<form method="POST">
+		<label for="name">Name*</label>
+		<input type="text" id="name" name="name" required><br>
+	  
+		<label for="email">Email*</label>
+		<input type="email" id="email" name="email" required><br>
+	  
+		<label for="gender">Gender*</label>
+		<input type="radio" id="male" name="gender" value="male" required>
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="female">Female</label><br>
+	  
+		<label for="laptop">Laptop Brands</label>
+		<select id="laptop" name="laptop">
+		  <option value="Apple">Apple</option>
+		  <option value="Asus">Asus</option>
+		  <option value="HP">HP</option>
+		</select><br>
+	  
+		<label for="age">Age*</label>
+		<input type="number" id="age" name="age" required><br>
+	  
+		<label for="dob">DOB*</label>
+		<input type="date" id="dob" name="dob" required><br>
+	  
+		<label for="password">Password*</label>
+		<input type="password" id="password" name="password" required><br>
+	  
+		<label for="portfolio">Portfolio URL</label>
+		<input type="url" id="portfolio" name="portfolio"><br>
+	  
+		<button type="submit" value="Submit">
+	  </form>
+	<script type="text/javascript" src="./script.js">
+	</script>
 
 </body>
 
 </html>
+<!-- Make a job app that has the following HTML elements:
+
+Name*
+Email*
+Gender*(radio)
+Laptop Brands(options : [Apple, Asus, HP])
+Age*
+DOB*
+Password*
+submit button.
+Also, Take input from the users where they can paste the website URL of their portfolio. The input element must have portfolio as id
+
+Instructions:
+
+* are required fields,
+Use method attribute value in this case for the form!
+The respective input elements for the mentioned fields should have ids #name, #email, #password, #age, #dob
+For example, The element for selecting laptop brand should have id #laptop
+The radio buttons for gender should have name atrribute as gender.
+All input elements must also have corresponding labels with for attribute set to id's of element they belong to.
+For Example, label for input of name will be <label for="name"> Name</label> -->
+
+
+<!-- maine akhiyon se goli maari usne dotch kar di  or tere piya kya gaye rangoon tune  toh asiqo fuaj kr di or accha sila diya tune mere pyar ka wah bete wah mauj kar di  -->
